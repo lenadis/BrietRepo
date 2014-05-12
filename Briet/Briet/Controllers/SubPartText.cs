@@ -7,7 +7,7 @@ namespace Briet.Controllers
 {
     public class SubPartText
     {
-        public int ID { get; set; }
+        public int Id { get; set; }
         public int SubPartID { get; set; }
         public int LanguageID { get; set; }
         public int UserID { get; set; }

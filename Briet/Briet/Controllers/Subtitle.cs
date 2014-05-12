@@ -7,7 +7,7 @@ namespace Briet.Controllers
 {
     public class Subtitle
     {
-        public int ID { get; set; }
+        public int Id { get; set; }
         public int TitleID { get; set; }
         public int LanguageID { get; set; }
         public DateTime PublishDate { get; set; }
