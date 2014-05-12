@@ -8,7 +8,7 @@ namespace Briet.Models
     public class SubtitleItem
     {
         public int Id { get; set; }
-        public int Title { get; set; }
+        public string Title { get; set; }
         public string Language { get; set; }
         public string Category { get; set; }
         public DateTime PublishDate { get; set; }

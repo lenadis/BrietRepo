@@ -19,5 +19,7 @@ namespace Briet.Models
         public System.Data.Entity.DbSet<Briet.Controllers.Titles> Titles { get; set; }
 
         public System.Data.Entity.DbSet<Briet.Controllers.SubPartText> SubPartTexts { get; set; }
+
+        public System.Data.Entity.DbSet<Briet.Models.SubtitleItem> SubtitleItems { get; set; }
     }
 }

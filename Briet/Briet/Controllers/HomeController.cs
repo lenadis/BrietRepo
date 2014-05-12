@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Briet.DAL;
+using Briet.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -8,6 +10,7 @@ namespace Briet.Controllers
 {
     public class HomeController : Controller
     {
+        AppDataContext context = new AppDataContext();
         public ActionResult Index()
         {
             return View();
@@ -22,9 +25,13 @@ namespace Briet.Controllers
 
         public ActionResult Contact()
         {
-            ViewBag.Message = "Join the movement and help create subtitles for your favorite movies";
-
+            ViewBag.Message = "Have a Nice Day";
             return View();
+        }
+        public ActionResult SubtitleList()
+        {
+           IEnumerable<SubtitleItem> subtitles = context.Subtitles.ToList();
+            return View(subtitles);
         }
 
         public ActionResult Create()
