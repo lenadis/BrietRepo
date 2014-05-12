@@ -15,15 +15,25 @@ namespace Briet.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "Your application description page.";
+            ViewBag.Message = "Bríet is a groundbreaking community where everyone can help make a difference";
 
             return View();
         }
 
         public ActionResult Contact()
         {
-            ViewBag.Message = "Your contact page.";
+            ViewBag.Message = "Join the movement and help create subtitles for your favorite movies";
 
+            return View();
+        }
+
+        public ActionResult Create()
+        {
+            return View();
+        }
+
+        public ActionResult Translate()
+        {
             return View();
         }
     }

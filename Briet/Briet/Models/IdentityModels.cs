@@ -13,5 +13,11 @@ namespace Briet.Models
             : base("DefaultConnection")
         {
         }
+
+        public System.Data.Entity.DbSet<Briet.Controllers.Subtitle> Subtitles { get; set; }
+
+        public System.Data.Entity.DbSet<Briet.Controllers.Titles> Titles { get; set; }
+
+        public System.Data.Entity.DbSet<Briet.Controllers.SubPartText> SubPartTexts { get; set; }
     }
 }
