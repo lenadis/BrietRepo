@@ -169,6 +169,7 @@
     <Compile Include="Controllers\Subtitle.cs" />
     <Compile Include="Controllers\Titles.cs" />
     <Compile Include="Controllers\User.cs" />
+    <Compile Include="DAL\SubtitleContext.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
