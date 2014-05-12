@@ -8,6 +8,6 @@ namespace Briet.Controllers
     public class Language
     {
         public int ID { get; set; }
-        public string Language { get; set; }
+        public string LanguageType { get; set; }
     }
 }
