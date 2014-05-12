@@ -169,7 +169,8 @@
     <Compile Include="Controllers\Subtitle.cs" />
     <Compile Include="Controllers\Titles.cs" />
     <Compile Include="Controllers\User.cs" />
-    <Compile Include="DAL\SubtitleContext.cs" />
+    <Compile Include="DAL\AppDataContext.cs" />
+    <Compile Include="DAL\SubtitleInitializer.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -226,6 +227,7 @@
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
     <Content Include="Views\Home\Translate.cshtml" />
     <Content Include="Views\Home\Create.cshtml" />
+    <Content Include="Views\Home\SubtitleList.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
