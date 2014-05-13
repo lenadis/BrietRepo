@@ -108,3 +108,5 @@ C:\Users\Heiðdís Rut\Desktop\BrietRepo\Briet\Briet\bin\Microsoft.Owin.Security
 C:\Users\Heiðdís Rut\Desktop\BrietRepo\Briet\Briet\obj\Debug\Briet.csprojResolveAssemblyReference.cache
 C:\Users\Heiðdís Rut\Desktop\BrietRepo\Briet\Briet\obj\Debug\Briet.dll
 C:\Users\Heiðdís Rut\Desktop\BrietRepo\Briet\Briet\obj\Debug\Briet.pdb
+C:\Users\Heiðdís Rut\Desktop\BrietRepo\Briet\Briet\bin\Briet.dll.CodeAnalysisLog.xml
+C:\Users\Heiðdís Rut\Desktop\BrietRepo\Briet\Briet\bin\Briet.dll.lastcodeanalysissucceeded

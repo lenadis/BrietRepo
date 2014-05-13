@@ -42,3 +42,5 @@ C:\Users\Heiðdís Rut\Desktop\BrietRepo\Briet\Briet.Tests\bin\Debug\Microsoft.O
 C:\Users\Heiðdís Rut\Desktop\BrietRepo\Briet\Briet.Tests\obj\Debug\Briet.Tests.csprojResolveAssemblyReference.cache
 C:\Users\Heiðdís Rut\Desktop\BrietRepo\Briet\Briet.Tests\obj\Debug\Briet.Tests.dll
 C:\Users\Heiðdís Rut\Desktop\BrietRepo\Briet\Briet.Tests\obj\Debug\Briet.Tests.pdb
+C:\Users\Heiðdís Rut\Desktop\BrietRepo\Briet\Briet.Tests\bin\Debug\Briet.Tests.dll.CodeAnalysisLog.xml
+C:\Users\Heiðdís Rut\Desktop\BrietRepo\Briet\Briet.Tests\bin\Debug\Briet.Tests.dll.lastcodeanalysissucceeded
