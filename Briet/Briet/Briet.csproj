@@ -228,6 +228,8 @@
     <Content Include="Views\Home\Translate.cshtml" />
     <Content Include="Views\Home\Create.cshtml" />
     <Content Include="Views\Home\SubtitleList.cshtml" />
+    <Content Include="Views\Home\Details.cshtml" />
+    <Content Include="Views\Home\Edit.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
