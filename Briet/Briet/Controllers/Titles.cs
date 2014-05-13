@@ -9,7 +9,7 @@ namespace Briet.Controllers
     {
         public int Id { get; set; }
         public string Title { get; set; }
-        public int CategoryID { get; set; }
+        public int Category { get; set; }
         public string SubFileSRT { get; set; }
         public string MediaURL { get; set; }
     }

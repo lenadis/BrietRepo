@@ -11,6 +11,7 @@ namespace Briet.Models
         public string Title { get; set; }
         public string Language { get; set; }
         public string Category { get; set; }
+        public string SubFile { get; set; }
         public DateTime PublishDate { get; set; }
         public bool Status { get; set; } 
 

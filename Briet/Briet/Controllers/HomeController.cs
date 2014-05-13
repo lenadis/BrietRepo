@@ -10,7 +10,6 @@ namespace Briet.Controllers
 {
     public class HomeController : Controller
     {
-        AppDataContext context = new AppDataContext();
         public ActionResult Index()
         {
             return View();
@@ -30,8 +29,7 @@ namespace Briet.Controllers
         }
         public ActionResult SubtitleList()
         {
-           IEnumerable<SubtitleItem> subtitles = context.Subtitles.ToList();
-            return View(subtitles);
+            return View();
         }
 
         public ActionResult Create()
@@ -48,9 +46,15 @@ namespace Briet.Controllers
         {
             return View();
         }
-
+        [HttpGet]
+        public ActionResult Edit(int? id)
+        {
+            return View();       
+        }
+        [HttpPost]
         public ActionResult Edit()
         {
+            
             return View();
         }
     }

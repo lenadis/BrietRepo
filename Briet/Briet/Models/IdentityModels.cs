@@ -7,9 +7,9 @@ namespace Briet.Models
     {
     }
 
-    public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
+    public class AppDataContext : IdentityDbContext<ApplicationUser>
     {
-        public ApplicationDbContext()
+        public AppDataContext()
             : base("AppDataContext")
         {
         }

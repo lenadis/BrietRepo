@@ -169,11 +169,12 @@
     <Compile Include="Controllers\Subtitle.cs" />
     <Compile Include="Controllers\Titles.cs" />
     <Compile Include="Controllers\User.cs" />
-    <Compile Include="DAL\AppDataContext.cs" />
-    <Compile Include="DAL\SubtitleInitializer.cs" />
+    <Compile Include="DAL\TitleContext.cs" />
+    <Compile Include="DAL\TitleInitializer.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\SubtitleItem.cs" />
@@ -228,8 +229,8 @@
     <Content Include="Views\Home\Translate.cshtml" />
     <Content Include="Views\Home\Create.cshtml" />
     <Content Include="Views\Home\SubtitleList.cshtml" />
-    <Content Include="Views\Home\Details.cshtml" />
     <Content Include="Views\Home\Edit.cshtml" />
+    <Content Include="Views\Home\Details.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
